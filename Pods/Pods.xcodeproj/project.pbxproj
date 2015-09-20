@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292C5D271A2A1FCECECC8A626794C05A /* SAMPersistentRateLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 634C97D517A256223E1033B99991C4C7 /* SAMPersistentRateLimit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F7124E57476EFCB3B6F3F52BD828234 /* SAMPersistentRateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD62D7A8BF73E24AB5E2D6AC6D2D5BD /* SAMPersistentRateLimit.h */; };
+		3FB388674DC9F8899924777673A8D906 /* Pods-Laney-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A136B3D5C4A0537C30309C32137A763B /* Pods-Laney-dummy.m */; };
+		48F1F201F1E42E6B04E36699F6D51811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75C4FEEF67E4104421807ABE35E2638 /* Foundation.framework */; };
+		A8E70766FE0D37EC5C9B5EEAE02A085A /* SAMRateLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 03993B09C32CDAB1A00C13FC2C20B57C /* SAMRateLimit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9E7385CBE39ADCE7D00CCEE1CFD2320 /* SAMRateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B84B1D18E03E4A836F80D45D2A945EE /* SAMRateLimit.h */; };
+		AF9909AA447E89BD4E9BAD0A6DD600E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75C4FEEF67E4104421807ABE35E2638 /* Foundation.framework */; };
+		E08EDF15E917561E6D240A9A4CDCC08D /* SAMRateLimit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE29AB00F4FC66D893C0E9EF8D61BB /* SAMRateLimit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293E0E987E8A709A30E580CC0CE43533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76930FF59527CC8A7F2C7EDC14EB729F;
+			remoteInfo = SAMRateLimit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03993B09C32CDAB1A00C13FC2C20B57C /* SAMRateLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMRateLimit.m; path = SAMRateLimit/SAMRateLimit.m; sourceTree = "<group>"; };
+		08F9A3E41190A34B84F666AA9843CBBA /* Pods-Laney-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Laney-resources.sh"; sourceTree = "<group>"; };
+		0B84B1D18E03E4A836F80D45D2A945EE /* SAMRateLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMRateLimit.h; path = SAMRateLimit/SAMRateLimit.h; sourceTree = "<group>"; };
+		0F74D64E104E4BB19D7A749BA9B4731C /* Pods-Laney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Laney.debug.xcconfig"; sourceTree = "<group>"; };
+		140BED28A09A29BBB6D9DAE8C3937541 /* Pods-Laney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Laney.release.xcconfig"; sourceTree = "<group>"; };
+		3DAE29AB00F4FC66D893C0E9EF8D61BB /* SAMRateLimit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMRateLimit-dummy.m"; sourceTree = "<group>"; };
+		634C97D517A256223E1033B99991C4C7 /* SAMPersistentRateLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMPersistentRateLimit.m; path = SAMRateLimit/SAMPersistentRateLimit.m; sourceTree = "<group>"; };
+		6B6F18743B52AD9A01E15F050D9E7123 /* libSAMRateLimit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAMRateLimit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B237F75E2FC96E4768E32871266CA42 /* Pods-Laney-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Laney-acknowledgements.plist"; sourceTree = "<group>"; };
+		9854A6FD5BAED34F0B1E8EC4BE42EB38 /* SAMRateLimit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SAMRateLimit-Private.xcconfig"; sourceTree = "<group>"; };
+		9FD667B4292845BE553A85F3FB0979E5 /* SAMRateLimit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMRateLimit-prefix.pch"; sourceTree = "<group>"; };
+		A136B3D5C4A0537C30309C32137A763B /* Pods-Laney-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Laney-dummy.m"; sourceTree = "<group>"; };
+		A75C4FEEF67E4104421807ABE35E2638 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2408CF45974CDDD818B6EC7514D8564 /* libPods-Laney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Laney.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84868F7FF68C9BDB9F3A2D5569BE85C /* Pods-Laney-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Laney-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBD62D7A8BF73E24AB5E2D6AC6D2D5BD /* SAMPersistentRateLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMPersistentRateLimit.h; path = SAMRateLimit/SAMPersistentRateLimit.h; sourceTree = "<group>"; };
+		F950FA3E400733EAE576AE9BA87BE723 /* SAMRateLimit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMRateLimit.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31D5D3E73E9885F6677BC1EE69F609AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F1F201F1E42E6B04E36699F6D51811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B016B75579838EE701836AA7F3E0E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9909AA447E89BD4E9BAD0A6DD600E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056AE0B6E79206B34A0F2785C380F1F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F950FA3E400733EAE576AE9BA87BE723 /* SAMRateLimit.xcconfig */,
+				9854A6FD5BAED34F0B1E8EC4BE42EB38 /* SAMRateLimit-Private.xcconfig */,
+				3DAE29AB00F4FC66D893C0E9EF8D61BB /* SAMRateLimit-dummy.m */,
+				9FD667B4292845BE553A85F3FB0979E5 /* SAMRateLimit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMRateLimit";
+			sourceTree = "<group>";
+		};
+		2D85E9A84C26D67F97E372FA1E6BE183 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB4F87FF38C9FB9A82C54165A647CE1 /* Pods-Laney */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4EB4F87FF38C9FB9A82C54165A647CE1 /* Pods-Laney */ = {
+			isa = PBXGroup;
+			children = (
+				D84868F7FF68C9BDB9F3A2D5569BE85C /* Pods-Laney-acknowledgements.markdown */,
+				7B237F75E2FC96E4768E32871266CA42 /* Pods-Laney-acknowledgements.plist */,
+				A136B3D5C4A0537C30309C32137A763B /* Pods-Laney-dummy.m */,
+				08F9A3E41190A34B84F666AA9843CBBA /* Pods-Laney-resources.sh */,
+				0F74D64E104E4BB19D7A749BA9B4731C /* Pods-Laney.debug.xcconfig */,
+				140BED28A09A29BBB6D9DAE8C3937541 /* Pods-Laney.release.xcconfig */,
+			);
+			name = "Pods-Laney";
+			path = "Target Support Files/Pods-Laney";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A75C4FEEF67E4104421807ABE35E2638 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D8576AA3ABF2539E2B246B24ACEB85EB /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				2D85E9A84C26D67F97E372FA1E6BE183 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2408CF45974CDDD818B6EC7514D8564 /* libPods-Laney.a */,
+				6B6F18743B52AD9A01E15F050D9E7123 /* libSAMRateLimit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8576AA3ABF2539E2B246B24ACEB85EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD9AF7DCBD1EEDE8AB4817CE685EC8E8 /* SAMRateLimit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD9AF7DCBD1EEDE8AB4817CE685EC8E8 /* SAMRateLimit */ = {
+			isa = PBXGroup;
+			children = (
+				DBD62D7A8BF73E24AB5E2D6AC6D2D5BD /* SAMPersistentRateLimit.h */,
+				634C97D517A256223E1033B99991C4C7 /* SAMPersistentRateLimit.m */,
+				0B84B1D18E03E4A836F80D45D2A945EE /* SAMRateLimit.h */,
+				03993B09C32CDAB1A00C13FC2C20B57C /* SAMRateLimit.m */,
+				056AE0B6E79206B34A0F2785C380F1F8 /* Support Files */,
+			);
+			path = SAMRateLimit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D19E29A263474B82481F6807ABCD117B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7124E57476EFCB3B6F3F52BD828234 /* SAMPersistentRateLimit.h in Headers */,
+				A9E7385CBE39ADCE7D00CCEE1CFD2320 /* SAMRateLimit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36A515191033B9F8A192279AD1F626F7 /* Pods-Laney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37AC375C95F6FCF55DC6919E5595FB1 /* Build configuration list for PBXNativeTarget "Pods-Laney" */;
+			buildPhases = (
+				2BA275580802097B217069E49D425E81 /* Sources */,
+				3B016B75579838EE701836AA7F3E0E00 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB95BBCEC1EE5975E5659C2824FCEC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Laney";
+			productName = "Pods-Laney";
+			productReference = C2408CF45974CDDD818B6EC7514D8564 /* libPods-Laney.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76930FF59527CC8A7F2C7EDC14EB729F /* SAMRateLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31CED20BB41A681FC0E5AE6B625FA2A2 /* Build configuration list for PBXNativeTarget "SAMRateLimit" */;
+			buildPhases = (
+				E34CC461FF7A6CB195BF4CC7309603CB /* Sources */,
+				31D5D3E73E9885F6677BC1EE69F609AE /* Frameworks */,
+				D19E29A263474B82481F6807ABCD117B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMRateLimit;
+			productName = SAMRateLimit;
+			productReference = 6B6F18743B52AD9A01E15F050D9E7123 /* libSAMRateLimit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36A515191033B9F8A192279AD1F626F7 /* Pods-Laney */,
+				76930FF59527CC8A7F2C7EDC14EB729F /* SAMRateLimit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA275580802097B217069E49D425E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB388674DC9F8899924777673A8D906 /* Pods-Laney-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34CC461FF7A6CB195BF4CC7309603CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292C5D271A2A1FCECECC8A626794C05A /* SAMPersistentRateLimit.m in Sources */,
+				E08EDF15E917561E6D240A9A4CDCC08D /* SAMRateLimit-dummy.m in Sources */,
+				A8E70766FE0D37EC5C9B5EEAE02A085A /* SAMRateLimit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB95BBCEC1EE5975E5659C2824FCEC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMRateLimit;
+			target = 76930FF59527CC8A7F2C7EDC14EB729F /* SAMRateLimit */;
+			targetProxy = 293E0E987E8A709A30E580CC0CE43533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014243D3FFE12771438FC7CABB0283A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9854A6FD5BAED34F0B1E8EC4BE42EB38 /* SAMRateLimit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMRateLimit/SAMRateLimit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C28AEA1BE666E90338FB02905C723CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140BED28A09A29BBB6D9DAE8C3937541 /* Pods-Laney.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F487B14BC3CA9308021C79BBF4CCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F74D64E104E4BB19D7A749BA9B4731C /* Pods-Laney.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		85F48ED3A40EB70B5733AAA36E5E5CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9854A6FD5BAED34F0B1E8EC4BE42EB38 /* SAMRateLimit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMRateLimit/SAMRateLimit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31CED20BB41A681FC0E5AE6B625FA2A2 /* Build configuration list for PBXNativeTarget "SAMRateLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F48ED3A40EB70B5733AAA36E5E5CE0 /* Debug */,
+				014243D3FFE12771438FC7CABB0283A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37AC375C95F6FCF55DC6919E5595FB1 /* Build configuration list for PBXNativeTarget "Pods-Laney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F487B14BC3CA9308021C79BBF4CCFC /* Debug */,
+				4C28AEA1BE666E90338FB02905C723CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

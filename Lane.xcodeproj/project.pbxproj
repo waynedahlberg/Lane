@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B060652B1BADFEF500411EE2 /* Lullaby.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065291BADFEF500411EE2 /* Lullaby.caf */; };
+		B060652C1BADFEF500411EE2 /* Lullaby.wav in Resources */ = {isa = PBXBuildFile; fileRef = B060652A1BADFEF500411EE2 /* Lullaby.wav */; };
+		B06065481BAE08BA00411EE2 /* baby-big-laugh-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060652D1BADFEFF00411EE2 /* baby-big-laugh-1.caf */; };
+		B06065491BAE08BA00411EE2 /* baby-big-laugh-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060652E1BADFEFF00411EE2 /* baby-big-laugh-2.caf */; };
+		B060654A1BAE08BA00411EE2 /* baby-giggle-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060652F1BADFEFF00411EE2 /* baby-giggle-1.caf */; };
+		B060654B1BAE08BA00411EE2 /* baby-giggle-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065301BADFEFF00411EE2 /* baby-giggle-2.caf */; };
+		B060654C1BAE08BA00411EE2 /* baby-giggle-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065311BADFEFF00411EE2 /* baby-giggle-3.caf */; };
+		B060654D1BAE08BA00411EE2 /* baby-giggle-4a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065321BADFEFF00411EE2 /* baby-giggle-4a.caf */; };
+		B060654E1BAE08BA00411EE2 /* baby-giggle-4b.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065331BADFEFF00411EE2 /* baby-giggle-4b.caf */; };
+		B060654F1BAE08BA00411EE2 /* baby-giggle-4c.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065341BADFEFF00411EE2 /* baby-giggle-4c.caf */; };
+		B06065501BAE08BA00411EE2 /* baby-goo-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065351BADFEFF00411EE2 /* baby-goo-1.caf */; };
+		B06065511BAE08BA00411EE2 /* baby-goo-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065361BADFEFF00411EE2 /* baby-goo-2.caf */; };
+		B06065521BAE08BA00411EE2 /* baby-goo-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065371BADFEFF00411EE2 /* baby-goo-3.caf */; };
+		B06065531BAE08BA00411EE2 /* baby-goo-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065381BADFEFF00411EE2 /* baby-goo-4.caf */; };
+		B06065541BAE08BA00411EE2 /* baby-goo-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065391BADFEFF00411EE2 /* baby-goo-5.caf */; };
+		B06065551BAE08BA00411EE2 /* baby-goo-6.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060653A1BADFEFF00411EE2 /* baby-goo-6.caf */; };
+		B06065561BAE08BA00411EE2 /* baby-goo-7.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060653B1BADFEFF00411EE2 /* baby-goo-7.caf */; };
+		B06065571BAE08BA00411EE2 /* baby-goo-8.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060653C1BADFEFF00411EE2 /* baby-goo-8.caf */; };
+		B06065581BAE08BA00411EE2 /* baby-laugh-4a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060653D1BADFEFF00411EE2 /* baby-laugh-4a.caf */; };
+		B06065591BAE08BA00411EE2 /* baby-laugh-5a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060653E1BADFEFF00411EE2 /* baby-laugh-5a.caf */; };
+		B060655A1BAE08BA00411EE2 /* baby-laugh-5b.caf in Resources */ = {isa = PBXBuildFile; fileRef = B060653F1BADFEFF00411EE2 /* baby-laugh-5b.caf */; };
+		B060655B1BAE08BA00411EE2 /* baby-laugh-5c.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065401BADFEFF00411EE2 /* baby-laugh-5c.caf */; };
+		B060655C1BAE08BA00411EE2 /* baby-laugh-5d.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065411BADFEFF00411EE2 /* baby-laugh-5d.caf */; };
+		B060655D1BAE08BA00411EE2 /* baby-laugh-6.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065421BADFEFF00411EE2 /* baby-laugh-6.caf */; };
+		B060655E1BAE08BA00411EE2 /* baby-laugh-7a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065431BADFEFF00411EE2 /* baby-laugh-7a.caf */; };
+		B060655F1BAE08BA00411EE2 /* baby-laugh-8.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065441BADFEFF00411EE2 /* baby-laugh-8.caf */; };
+		B06065601BAE08BA00411EE2 /* baby-laugh-9.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065451BADFEFF00411EE2 /* baby-laugh-9.caf */; };
+		B06065611BAE08BA00411EE2 /* baby-laugh-snort-10.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065461BADFEFF00411EE2 /* baby-laugh-snort-10.caf */; };
+		B06065621BAE08BA00411EE2 /* baby-screech-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B06065471BADFEFF00411EE2 /* baby-screech-1.caf */; };
+		B0EDD58E1B94222A0087D04A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EDD58D1B94222A0087D04A /* main.m */; };
+		B0EDD5911B94222A0087D04A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EDD5901B94222A0087D04A /* AppDelegate.m */; };
+		B0EDD5941B94222A0087D04A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EDD5931B94222A0087D04A /* GameScene.m */; };
+		B0EDD5961B94222A0087D04A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0EDD5951B94222A0087D04A /* GameScene.sks */; };
+		B0EDD5991B94222A0087D04A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EDD5981B94222A0087D04A /* GameViewController.m */; };
+		B0EDD59C1B94222A0087D04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EDD59A1B94222A0087D04A /* Main.storyboard */; };
+		B0EDD59E1B94222A0087D04A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EDD59D1B94222A0087D04A /* Images.xcassets */; };
+		B0EDD5A11B94222A0087D04A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EDD59F1B94222A0087D04A /* LaunchScreen.xib */; };
+		B0EDD5AD1B94222A0087D04A /* GiggleTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EDD5AC1B94222A0087D04A /* GiggleTouchTests.m */; };
+		C86B77EB1783FBE6C638D362 /* libPods-Laney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654E0A0A082E3297B2FAF834 /* libPods-Laney.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0EDD5A71B94222A0087D04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0EDD5801B94222A0087D04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0EDD5871B94222A0087D04A;
+			remoteInfo = GiggleTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		654E0A0A082E3297B2FAF834 /* libPods-Laney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Laney.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1B0565B180DA3EF4BBE449 /* Pods-Laney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laney.release.xcconfig"; path = "Pods/Target Support Files/Pods-Laney/Pods-Laney.release.xcconfig"; sourceTree = "<group>"; };
+		B06065291BADFEF500411EE2 /* Lullaby.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lullaby.caf; sourceTree = "<group>"; };
+		B060652A1BADFEF500411EE2 /* Lullaby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lullaby.wav; sourceTree = "<group>"; };
+		B060652D1BADFEFF00411EE2 /* baby-big-laugh-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-big-laugh-1.caf"; sourceTree = "<group>"; };
+		B060652E1BADFEFF00411EE2 /* baby-big-laugh-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-big-laugh-2.caf"; sourceTree = "<group>"; };
+		B060652F1BADFEFF00411EE2 /* baby-giggle-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-1.caf"; sourceTree = "<group>"; };
+		B06065301BADFEFF00411EE2 /* baby-giggle-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-2.caf"; sourceTree = "<group>"; };
+		B06065311BADFEFF00411EE2 /* baby-giggle-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-3.caf"; sourceTree = "<group>"; };
+		B06065321BADFEFF00411EE2 /* baby-giggle-4a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-4a.caf"; sourceTree = "<group>"; };
+		B06065331BADFEFF00411EE2 /* baby-giggle-4b.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-4b.caf"; sourceTree = "<group>"; };
+		B06065341BADFEFF00411EE2 /* baby-giggle-4c.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-4c.caf"; sourceTree = "<group>"; };
+		B06065351BADFEFF00411EE2 /* baby-goo-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-1.caf"; sourceTree = "<group>"; };
+		B06065361BADFEFF00411EE2 /* baby-goo-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-2.caf"; sourceTree = "<group>"; };
+		B06065371BADFEFF00411EE2 /* baby-goo-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-3.caf"; sourceTree = "<group>"; };
+		B06065381BADFEFF00411EE2 /* baby-goo-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-4.caf"; sourceTree = "<group>"; };
+		B06065391BADFEFF00411EE2 /* baby-goo-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-5.caf"; sourceTree = "<group>"; };
+		B060653A1BADFEFF00411EE2 /* baby-goo-6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-6.caf"; sourceTree = "<group>"; };
+		B060653B1BADFEFF00411EE2 /* baby-goo-7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-7.caf"; sourceTree = "<group>"; };
+		B060653C1BADFEFF00411EE2 /* baby-goo-8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-8.caf"; sourceTree = "<group>"; };
+		B060653D1BADFEFF00411EE2 /* baby-laugh-4a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-4a.caf"; sourceTree = "<group>"; };
+		B060653E1BADFEFF00411EE2 /* baby-laugh-5a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5a.caf"; sourceTree = "<group>"; };
+		B060653F1BADFEFF00411EE2 /* baby-laugh-5b.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5b.caf"; sourceTree = "<group>"; };
+		B06065401BADFEFF00411EE2 /* baby-laugh-5c.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5c.caf"; sourceTree = "<group>"; };
+		B06065411BADFEFF00411EE2 /* baby-laugh-5d.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5d.caf"; sourceTree = "<group>"; };
+		B06065421BADFEFF00411EE2 /* baby-laugh-6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-6.caf"; sourceTree = "<group>"; };
+		B06065431BADFEFF00411EE2 /* baby-laugh-7a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-7a.caf"; sourceTree = "<group>"; };
+		B06065441BADFEFF00411EE2 /* baby-laugh-8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-8.caf"; sourceTree = "<group>"; };
+		B06065451BADFEFF00411EE2 /* baby-laugh-9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-9.caf"; sourceTree = "<group>"; };
+		B06065461BADFEFF00411EE2 /* baby-laugh-snort-10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-snort-10.caf"; sourceTree = "<group>"; };
+		B06065471BADFEFF00411EE2 /* baby-screech-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-screech-1.caf"; sourceTree = "<group>"; };
+		B0EDD5881B94222A0087D04A /* Lane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EDD58C1B94222A0087D04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EDD58D1B94222A0087D04A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0EDD58F1B94222A0087D04A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0EDD5901B94222A0087D04A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0EDD5921B94222A0087D04A /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B0EDD5931B94222A0087D04A /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B0EDD5951B94222A0087D04A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B0EDD5971B94222A0087D04A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B0EDD5981B94222A0087D04A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B0EDD59B1B94222A0087D04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0EDD59D1B94222A0087D04A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0EDD5A01B94222A0087D04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B0EDD5A61B94222A0087D04A /* Lane.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lane.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EDD5AB1B94222A0087D04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EDD5AC1B94222A0087D04A /* GiggleTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiggleTouchTests.m; sourceTree = "<group>"; };
+		DBD6D0E276A411D1DE5F9613 /* Pods-Laney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Laney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Laney/Pods-Laney.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0EDD5851B94222A0087D04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86B77EB1783FBE6C638D362 /* libPods-Laney.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EDD5A31B94222A0087D04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629AAD1B29BB87459FA96BED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD6D0E276A411D1DE5F9613 /* Pods-Laney.debug.xcconfig */,
+				AD1B0565B180DA3EF4BBE449 /* Pods-Laney.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B06065071BADFC0D00411EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B06065281BADFECD00411EE2 /* Music */,
+				B06065271BADFEC100411EE2 /* Sound Effects */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B06065261BADFE6800411EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B06065271BADFEC100411EE2 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				B060652D1BADFEFF00411EE2 /* baby-big-laugh-1.caf */,
+				B060652E1BADFEFF00411EE2 /* baby-big-laugh-2.caf */,
+				B060652F1BADFEFF00411EE2 /* baby-giggle-1.caf */,
+				B06065301BADFEFF00411EE2 /* baby-giggle-2.caf */,
+				B06065311BADFEFF00411EE2 /* baby-giggle-3.caf */,
+				B06065321BADFEFF00411EE2 /* baby-giggle-4a.caf */,
+				B06065331BADFEFF00411EE2 /* baby-giggle-4b.caf */,
+				B06065341BADFEFF00411EE2 /* baby-giggle-4c.caf */,
+				B06065351BADFEFF00411EE2 /* baby-goo-1.caf */,
+				B06065361BADFEFF00411EE2 /* baby-goo-2.caf */,
+				B06065371BADFEFF00411EE2 /* baby-goo-3.caf */,
+				B06065381BADFEFF00411EE2 /* baby-goo-4.caf */,
+				B06065391BADFEFF00411EE2 /* baby-goo-5.caf */,
+				B060653A1BADFEFF00411EE2 /* baby-goo-6.caf */,
+				B060653B1BADFEFF00411EE2 /* baby-goo-7.caf */,
+				B060653C1BADFEFF00411EE2 /* baby-goo-8.caf */,
+				B060653D1BADFEFF00411EE2 /* baby-laugh-4a.caf */,
+				B060653E1BADFEFF00411EE2 /* baby-laugh-5a.caf */,
+				B060653F1BADFEFF00411EE2 /* baby-laugh-5b.caf */,
+				B06065401BADFEFF00411EE2 /* baby-laugh-5c.caf */,
+				B06065411BADFEFF00411EE2 /* baby-laugh-5d.caf */,
+				B06065421BADFEFF00411EE2 /* baby-laugh-6.caf */,
+				B06065431BADFEFF00411EE2 /* baby-laugh-7a.caf */,
+				B06065441BADFEFF00411EE2 /* baby-laugh-8.caf */,
+				B06065451BADFEFF00411EE2 /* baby-laugh-9.caf */,
+				B06065461BADFEFF00411EE2 /* baby-laugh-snort-10.caf */,
+				B06065471BADFEFF00411EE2 /* baby-screech-1.caf */,
+			);
+			name = "Sound Effects";
+			path = SoundEffects;
+			sourceTree = "<group>";
+		};
+		B06065281BADFECD00411EE2 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B06065291BADFEF500411EE2 /* Lullaby.caf */,
+				B060652A1BADFEF500411EE2 /* Lullaby.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		B0EDD57F1B94222A0087D04A = {
+			isa = PBXGroup;
+			children = (
+				B0EDD58A1B94222A0087D04A /* Laney */,
+				B0EDD5A91B94222A0087D04A /* LaneyTests */,
+				B0EDD5891B94222A0087D04A /* Products */,
+				629AAD1B29BB87459FA96BED /* Pods */,
+				D8245874A9AA8B2CB3BD0DC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EDD5891B94222A0087D04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDD5881B94222A0087D04A /* Lane.app */,
+				B0EDD5A61B94222A0087D04A /* Lane.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EDD58A1B94222A0087D04A /* Laney */ = {
+			isa = PBXGroup;
+			children = (
+				B06065261BADFE6800411EE2 /* Resources */,
+				B06065071BADFC0D00411EE2 /* Resources */,
+				B0EDD5B61B9422430087D04A /* Storyboards */,
+				B0EDD58F1B94222A0087D04A /* AppDelegate.h */,
+				B0EDD5901B94222A0087D04A /* AppDelegate.m */,
+				B0EDD5921B94222A0087D04A /* GameScene.h */,
+				B0EDD5931B94222A0087D04A /* GameScene.m */,
+				B0EDD5951B94222A0087D04A /* GameScene.sks */,
+				B0EDD5971B94222A0087D04A /* GameViewController.h */,
+				B0EDD5981B94222A0087D04A /* GameViewController.m */,
+				B0EDD59D1B94222A0087D04A /* Images.xcassets */,
+				B0EDD59F1B94222A0087D04A /* LaunchScreen.xib */,
+				B0EDD58B1B94222A0087D04A /* Supporting Files */,
+			);
+			name = Laney;
+			path = GiggleTouch;
+			sourceTree = "<group>";
+		};
+		B0EDD58B1B94222A0087D04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDD58C1B94222A0087D04A /* Info.plist */,
+				B0EDD58D1B94222A0087D04A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0EDD5A91B94222A0087D04A /* LaneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDD5AC1B94222A0087D04A /* GiggleTouchTests.m */,
+				B0EDD5AA1B94222A0087D04A /* Supporting Files */,
+			);
+			name = LaneyTests;
+			path = GiggleTouchTests;
+			sourceTree = "<group>";
+		};
+		B0EDD5AA1B94222A0087D04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDD5AB1B94222A0087D04A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0EDD5B61B9422430087D04A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B0EDD59A1B94222A0087D04A /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D8245874A9AA8B2CB3BD0DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654E0A0A082E3297B2FAF834 /* libPods-Laney.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0EDD5871B94222A0087D04A /* Lane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EDD5B01B94222A0087D04A /* Build configuration list for PBXNativeTarget "Lane" */;
+			buildPhases = (
+				1B4CC00B0A8948DE2DE59B71 /* Check Pods Manifest.lock */,
+				B0EDD5841B94222A0087D04A /* Sources */,
+				B0EDD5851B94222A0087D04A /* Frameworks */,
+				B0EDD5861B94222A0087D04A /* Resources */,
+				8C447E30B9A2BB5CB8B2B04E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lane;
+			productName = GiggleTouch;
+			productReference = B0EDD5881B94222A0087D04A /* Lane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0EDD5A51B94222A0087D04A /* LaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EDD5B31B94222A0087D04A /* Build configuration list for PBXNativeTarget "LaneTests" */;
+			buildPhases = (
+				B0EDD5A21B94222A0087D04A /* Sources */,
+				B0EDD5A31B94222A0087D04A /* Frameworks */,
+				B0EDD5A41B94222A0087D04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EDD5A81B94222A0087D04A /* PBXTargetDependency */,
+			);
+			name = LaneTests;
+			productName = GiggleTouchTests;
+			productReference = B0EDD5A61B94222A0087D04A /* Lane.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0EDD5801B94222A0087D04A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Wayne Dahlberg";
+				TargetAttributes = {
+					B0EDD5871B94222A0087D04A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B0EDD5A51B94222A0087D04A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B0EDD5871B94222A0087D04A;
+					};
+				};
+			};
+			buildConfigurationList = B0EDD5831B94222A0087D04A /* Build configuration list for PBXProject "Lane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0EDD57F1B94222A0087D04A;
+			productRefGroup = B0EDD5891B94222A0087D04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0EDD5871B94222A0087D04A /* Lane */,
+				B0EDD5A51B94222A0087D04A /* LaneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0EDD5861B94222A0087D04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06065501BAE08BA00411EE2 /* baby-goo-1.caf in Resources */,
+				B060654B1BAE08BA00411EE2 /* baby-giggle-2.caf in Resources */,
+				B060654C1BAE08BA00411EE2 /* baby-giggle-3.caf in Resources */,
+				B06065541BAE08BA00411EE2 /* baby-goo-5.caf in Resources */,
+				B06065531BAE08BA00411EE2 /* baby-goo-4.caf in Resources */,
+				B06065551BAE08BA00411EE2 /* baby-goo-6.caf in Resources */,
+				B060655B1BAE08BA00411EE2 /* baby-laugh-5c.caf in Resources */,
+				B06065521BAE08BA00411EE2 /* baby-goo-3.caf in Resources */,
+				B06065481BAE08BA00411EE2 /* baby-big-laugh-1.caf in Resources */,
+				B0EDD5A11B94222A0087D04A /* LaunchScreen.xib in Resources */,
+				B060655A1BAE08BA00411EE2 /* baby-laugh-5b.caf in Resources */,
+				B06065621BAE08BA00411EE2 /* baby-screech-1.caf in Resources */,
+				B060655D1BAE08BA00411EE2 /* baby-laugh-6.caf in Resources */,
+				B06065561BAE08BA00411EE2 /* baby-goo-7.caf in Resources */,
+				B060655F1BAE08BA00411EE2 /* baby-laugh-8.caf in Resources */,
+				B06065511BAE08BA00411EE2 /* baby-goo-2.caf in Resources */,
+				B060654F1BAE08BA00411EE2 /* baby-giggle-4c.caf in Resources */,
+				B060654A1BAE08BA00411EE2 /* baby-giggle-1.caf in Resources */,
+				B0EDD59E1B94222A0087D04A /* Images.xcassets in Resources */,
+				B060655C1BAE08BA00411EE2 /* baby-laugh-5d.caf in Resources */,
+				B060654E1BAE08BA00411EE2 /* baby-giggle-4b.caf in Resources */,
+				B060654D1BAE08BA00411EE2 /* baby-giggle-4a.caf in Resources */,
+				B06065591BAE08BA00411EE2 /* baby-laugh-5a.caf in Resources */,
+				B060652C1BADFEF500411EE2 /* Lullaby.wav in Resources */,
+				B060655E1BAE08BA00411EE2 /* baby-laugh-7a.caf in Resources */,
+				B0EDD5961B94222A0087D04A /* GameScene.sks in Resources */,
+				B06065601BAE08BA00411EE2 /* baby-laugh-9.caf in Resources */,
+				B06065581BAE08BA00411EE2 /* baby-laugh-4a.caf in Resources */,
+				B060652B1BADFEF500411EE2 /* Lullaby.caf in Resources */,
+				B06065611BAE08BA00411EE2 /* baby-laugh-snort-10.caf in Resources */,
+				B06065571BAE08BA00411EE2 /* baby-goo-8.caf in Resources */,
+				B06065491BAE08BA00411EE2 /* baby-big-laugh-2.caf in Resources */,
+				B0EDD59C1B94222A0087D04A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EDD5A41B94222A0087D04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4CC00B0A8948DE2DE59B71 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C447E30B9A2BB5CB8B2B04E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Laney/Pods-Laney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0EDD5841B94222A0087D04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EDD5991B94222A0087D04A /* GameViewController.m in Sources */,
+				B0EDD5911B94222A0087D04A /* AppDelegate.m in Sources */,
+				B0EDD5941B94222A0087D04A /* GameScene.m in Sources */,
+				B0EDD58E1B94222A0087D04A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EDD5A21B94222A0087D04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EDD5AD1B94222A0087D04A /* GiggleTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0EDD5A81B94222A0087D04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0EDD5871B94222A0087D04A /* Lane */;
+			targetProxy = B0EDD5A71B94222A0087D04A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0EDD59A1B94222A0087D04A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EDD59B1B94222A0087D04A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0EDD59F1B94222A0087D04A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EDD5A01B94222A0087D04A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0EDD5AE1B94222A0087D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EDD5AF1B94222A0087D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0EDD5B11B94222A0087D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD6D0E276A411D1DE5F9613 /* Pods-Laney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GiggleTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lane;
+			};
+			name = Debug;
+		};
+		B0EDD5B21B94222A0087D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1B0565B180DA3EF4BBE449 /* Pods-Laney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GiggleTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lane;
+			};
+			name = Release;
+		};
+		B0EDD5B41B94222A0087D04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GiggleTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lane;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lane.app/Lane";
+			};
+			name = Debug;
+		};
+		B0EDD5B51B94222A0087D04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GiggleTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Lane;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lane.app/Lane";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0EDD5831B94222A0087D04A /* Build configuration list for PBXProject "Lane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EDD5AE1B94222A0087D04A /* Debug */,
+				B0EDD5AF1B94222A0087D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EDD5B01B94222A0087D04A /* Build configuration list for PBXNativeTarget "Lane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EDD5B11B94222A0087D04A /* Debug */,
+				B0EDD5B21B94222A0087D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EDD5B31B94222A0087D04A /* Build configuration list for PBXNativeTarget "LaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EDD5B41B94222A0087D04A /* Debug */,
+				B0EDD5B51B94222A0087D04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0EDD5801B94222A0087D04A /* Project object */;
+}
